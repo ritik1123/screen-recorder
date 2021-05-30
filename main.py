@@ -1,9 +1,9 @@
 import datetime
 
-from PIL import ImageGrab
-import numpy as np
-import cv2
-from win32api import GetSystemMetrics
+from PIL import ImageGrab #pip install Pillow
+import numpy as np #pip install numpy
+import cv2 #pip install opencv-contrib-python
+from win32api import GetSystemMetrics #pip install pywin32
 print('I love my mom and dad' [::-1])
 
 width = GetSystemMetrics(0)
